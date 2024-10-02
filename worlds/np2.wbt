@@ -1,0 +1,62 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/sony/aibo/protos/AiboErs7.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.6295534515659142 0.44982241595172534 0.6334999966288849 2.291499024726968
+  position -0.1520262121827694 -0.09482128520872701 2.7999899618895285
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+AiboErs7 {
+  hidden translation_2 0.0675 0 0.0195
+  hidden rotation_2 0.5773536560633461 -0.577346645588672 -0.5773505058955053 2.094402248889481
+  hidden translation_3 0 0.08 0
+  hidden rotation_3 0 1 0 0
+  hidden translation_4 0 0 0
+  hidden rotation_4 -1 0 0 7.300048299977715e-08
+  hidden translation_9 -0.042 0.0145 0.011
+  hidden rotation_9 0 0 -1 0
+  hidden translation_10 0.042 0.0145 0.011
+  hidden rotation_10 0 0 1 0
+  hidden translation_12 -0.102 0 0.033
+  hidden rotation_12 0 1 0 0
+  hidden translation_13 0 0 0
+  hidden rotation_13 1 0 0 0
+  hidden translation_14 0.065 0 0
+  hidden rotation_14 0 1 0 0.2218157278899062
+  hidden translation_15 0 -0.0625 0
+  hidden rotation_15 -1 0 0 0.30448434538617103
+  hidden translation_16 0.009 -0.0047 -0.0695
+  hidden rotation_16 0.6536085549104474 -0.653606591801246 -0.3815681853900241 2.4125736703023977
+  hidden translation_18 -0.065 0 0
+  hidden rotation_18 0 -1 0 1.0011389611448047
+  hidden translation_19 0 -0.0625 0
+  hidden rotation_19 -1 0 0 0.4775789835940314
+  hidden translation_20 -0.009 -0.0047 -0.0695
+  hidden rotation_20 -0.07014530966477732 0.07014695273616277 -0.9950673547825108 1.575752730917973
+  hidden translation_22 0.065 0 0
+  hidden rotation_22 0 -1 0 0.13237403522946453
+  hidden translation_23 0 0.0625 0
+  hidden rotation_23 -1 0 0 0.03218403862504871
+  hidden translation_24 0.009 0.0047 -0.0695
+  hidden rotation_24 0.6424770017944473 -0.6424753833334559 -0.41767054477871296 2.3503135267259596
+  hidden translation_26 -0.065 0 0
+  hidden rotation_26 0 -1 0 0.6062028320453149
+  hidden translation_27 0 0.0625 0
+  hidden rotation_27 -1 0 0 0.05108490769609292
+  hidden translation_28 -0.009 0.0047 -0.0695
+  hidden rotation_28 -0.07260025492161384 0.07260186914087391 -0.9947151208172962 1.5761067750599076
+  translation -0.09230069121915704 0.030419014500433956 0.12723163990028682
+  rotation -0.20742701236336528 -0.880581037417417 0.4260881024892318 0.10375318335480499
+  controller "my_controller"
+}
